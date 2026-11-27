@@ -1,0 +1,37 @@
+project:
+  name: "Northgate AI Stock Market Prediction & Portfolio Optimization"
+  seed: 42
+
+data:
+  universe: ["AAPL", "MSFT", "JPM", "XOM", "JNJ", "PG", "NVDA", "KO", "CAT", "HD"]
+  benchmark: "^GSPC"
+  volatility_index: "^VIX"
+  macro_series: ["DGS10", "DGS3MO", "CPIAUCSL", "UNRATE"]
+  start_date: "2015-01-01"
+  end_date: "2026-11-01"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+
+features:
+  sequence_length: 60
+  forecast_horizon: 1
+  target_ticker: "AAPL"
+
+splits:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+portfolio:
+  risk_free_rate: 0.04
+  max_weight_per_asset: 0.30
+  monte_carlo_portfolios: 20000
+  rebalance_band: 0.05
+
+recommendations:
+  weights:
+    forecast: 0.50
+    sentiment: 0.30
+    risk: 0.20
+  buy_threshold: 0.25
+  sell_threshold: -0.25

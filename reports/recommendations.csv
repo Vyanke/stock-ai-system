@@ -1,0 +1,11 @@
+Ticker,As_Of_Date,Last_Close ($),Forecast_Ret (%),Sentiment_EWM5,Ann_Vol (%),Composite_Score,Action,Confidence (%),Rationale
+NVDA,2026-10-29,213.66,0.708,0.087,29.8,0.329,BUY,67.9,"1-day model forecast +0.71%, 5-day EWM FinBERT sentiment +0.09, annualized volatility 29.8%, RSI(14) 34.7."
+HD,2026-10-29,328.98,0.182,0.262,29.2,0.16,HOLD,51.0,"1-day model forecast +0.18%, 5-day EWM FinBERT sentiment +0.26, annualized volatility 29.2%, RSI(14) 81.5."
+CAT,2026-10-29,647.39,0.527,-0.108,49.4,0.154,HOLD,50.4,"1-day model forecast +0.53%, 5-day EWM FinBERT sentiment -0.11, annualized volatility 49.4%, RSI(14) 18.1."
+JPM,2026-10-29,343.58,0.048,-0.037,13.2,0.146,HOLD,49.6,"1-day model forecast +0.05%, 5-day EWM FinBERT sentiment -0.04, annualized volatility 13.2%, RSI(14) 63.7."
+KO,2026-10-29,92.82,0.142,-0.077,21.6,0.129,HOLD,47.9,"1-day model forecast +0.14%, 5-day EWM FinBERT sentiment -0.08, annualized volatility 21.6%, RSI(14) 65.2."
+MSFT,2026-10-29,529.12,-0.128,0.134,19.1,0.113,HOLD,46.3,"1-day model forecast -0.13%, 5-day EWM FinBERT sentiment +0.13, annualized volatility 19.1%, RSI(14) 46.3."
+PG,2026-10-29,160.59,0.019,-0.142,26.0,0.048,HOLD,39.8,"1-day model forecast +0.02%, 5-day EWM FinBERT sentiment -0.14, annualized volatility 26.0%, RSI(14) 66.5."
+JNJ,2026-10-29,273.83,-0.007,-0.051,32.0,0.04,HOLD,39.0,"1-day model forecast -0.01%, 5-day EWM FinBERT sentiment -0.05, annualized volatility 32.0%, RSI(14) 61.6."
+AAPL,2026-10-29,348.65,-0.134,-0.186,14.0,0.037,HOLD,38.7,"1-day model forecast -0.13%, 5-day EWM FinBERT sentiment -0.19, annualized volatility 14.0%, RSI(14) 66.5."
+XOM,2026-10-29,182.14,-0.084,-0.016,20.4,0.027,HOLD,37.7,"1-day model forecast -0.08%, 5-day EWM FinBERT sentiment -0.02, annualized volatility 20.4%, RSI(14) 73.5."
